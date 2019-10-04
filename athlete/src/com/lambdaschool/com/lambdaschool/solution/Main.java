@@ -1,5 +1,8 @@
 package com.lambdaschool.solution;
 
+//import solution.AthleteCreationInjector;
+//import solution.Processor;
+//I DON'T THINK I NEED THESE IMPORTS, MUST NEED TO EXTEND
 public class Main
 {
     public static void main(String[] args)
@@ -13,7 +16,7 @@ public class Main
         app.displayAthlete();
 
         // Create a Hockey Athlete
-        injector = new HockeyAthleteCreationInjector();
+        injector = new HockyAthleteCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
 
